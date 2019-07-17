@@ -13,11 +13,10 @@ class Admin_model extends CI_Model
     public function getAllAdmin()
     {
         return $this->db->get_where('users', ["level" => '3'])->result();
-    }
-    
+
 }
 
-
+?>
 
 
 
